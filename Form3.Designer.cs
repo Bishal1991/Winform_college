@@ -32,8 +32,11 @@
             label1 = new Label();
             panel2 = new Panel();
             panel3 = new Panel();
+<<<<<<< HEAD
             label2 = new Label();
             comboCountry = new ComboBox();
+=======
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
             lbl_ID = new Label();
             lblGender = new Label();
             lblContact = new Label();
@@ -50,8 +53,12 @@
             NameField = new TextBox();
             panel4 = new Panel();
             dataGridView1 = new DataGridView();
+<<<<<<< HEAD
             UpdateBtn = new Button();
             DeleteBtn = new Button();
+=======
+            comboCountry = new ComboBox();
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
@@ -62,9 +69,15 @@
             // 
             panel1.Controls.Add(label1);
             panel1.Controls.Add(panel2);
+<<<<<<< HEAD
             panel1.Location = new Point(-1, -1);
             panel1.Name = "panel1";
             panel1.Size = new Size(802, 96);
+=======
+            panel1.Location = new Point(-1, 1);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(802, 94);
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
             panel1.TabIndex = 0;
             // 
             // label1
@@ -87,9 +100,12 @@
             // panel3
             // 
             panel3.BackColor = SystemColors.ActiveCaption;
+<<<<<<< HEAD
             panel3.Controls.Add(DeleteBtn);
             panel3.Controls.Add(UpdateBtn);
             panel3.Controls.Add(label2);
+=======
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
             panel3.Controls.Add(comboCountry);
             panel3.Controls.Add(lbl_ID);
             panel3.Controls.Add(lblGender);
@@ -107,6 +123,7 @@
             panel3.Controls.Add(NameField);
             panel3.Location = new Point(-1, 95);
             panel3.Name = "panel3";
+<<<<<<< HEAD
             panel3.Size = new Size(456, 430);
             panel3.TabIndex = 1;
             panel3.Paint += panel3_Paint;
@@ -133,6 +150,16 @@
             // 
             lbl_ID.AutoSize = true;
             lbl_ID.Location = new Point(128, 57);
+=======
+            panel3.Size = new Size(408, 357);
+            panel3.TabIndex = 1;
+            panel3.Paint += panel3_Paint;
+            // 
+            // lbl_ID
+            // 
+            lbl_ID.AutoSize = true;
+            lbl_ID.Location = new Point(88, 50);
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
             lbl_ID.Name = "lbl_ID";
             lbl_ID.Size = new Size(31, 20);
             lbl_ID.TabIndex = 15;
@@ -273,14 +300,21 @@
             panel4.BackColor = SystemColors.AppWorkspace;
             panel4.Controls.Add(dataGridView1);
             panel4.ForeColor = SystemColors.ActiveBorder;
+<<<<<<< HEAD
             panel4.Location = new Point(454, 95);
             panel4.Name = "panel4";
             panel4.Size = new Size(406, 430);
+=======
+            panel4.Location = new Point(407, 95);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(394, 357);
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
             panel4.TabIndex = 2;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD
             dataGridView1.Location = new Point(3, 0);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
@@ -306,18 +340,42 @@
             DeleteBtn.TabIndex = 18;
             DeleteBtn.Text = "Delete";
             DeleteBtn.UseVisualStyleBackColor = true;
+=======
+            dataGridView1.Location = new Point(0, 0);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(394, 354);
+            dataGridView1.TabIndex = 0;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // comboCountry
+            // 
+            comboCountry.FormattingEnabled = true;
+            comboCountry.Location = new Point(128, 264);
+            comboCountry.Name = "comboCountry";
+            comboCountry.Size = new Size(214, 28);
+            comboCountry.TabIndex = 16;
+            comboCountry.SelectedIndexChanged += comboCountry_SelectedIndexChanged;
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
             // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+<<<<<<< HEAD
             ClientSize = new Size(858, 524);
+=======
+            ClientSize = new Size(800, 450);
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Name = "Form3";
             Text = "Form3";
+<<<<<<< HEAD
             Load += UserINfo_Load;
+=======
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel3.ResumeLayout(false);
@@ -350,8 +408,11 @@
         private Label lbl_ID;
         private DataGridView dataGridView1;
         private ComboBox comboCountry;
+<<<<<<< HEAD
         private Label label2;
         private Button DeleteBtn;
         private Button UpdateBtn;
+=======
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
     }
 }

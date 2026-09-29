@@ -13,8 +13,11 @@ namespace WinFormsApp1
         public Form3()
         {
             InitializeComponent();
+<<<<<<< HEAD
             list = new BindingList<User>(users);
             dataGridView1.DataSource = list; // or set in Load handler
+=======
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
         }
 
         public class User
@@ -27,6 +30,7 @@ namespace WinFormsApp1
             public string Country { get; set; }
         }
 
+<<<<<<< HEAD
         private int NextID = 1;
         private List<User> users = new List<User>();
         private BindingList<User> list;
@@ -35,15 +39,30 @@ namespace WinFormsApp1
         {
             lbl_ID.Text = NextID.ToString();
 
+=======
+        int NextID = 1;
+        private List<User> users = new List<User>();
+        private void UserINfo_Load(object
+ sender, EventArgs e)
+        {
+
+        }
+
+        private void comboCountry_SelectedIndexChanged(object sender, EventArgs e)
+        {
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
             comboCountry.Items.Add("Nepal");
             comboCountry.Items.Add("India");
             comboCountry.Items.Add("China");
             comboCountry.Items.Add("Bhutan");
             comboCountry.Items.Add("Bangladesh");
             comboCountry.Items.Add("Pakistan");
+<<<<<<< HEAD
 
             dataGridView1.AutoGenerateColumns = true;
             dataGridView1.AllowUserToAddRows = false;
+=======
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -115,7 +134,13 @@ namespace WinFormsApp1
                 Country = comboCountry.Text
             };
 
+<<<<<<< HEAD
             list.Add(user);
+=======
+            users.Add(user);
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = users;
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
 
             lbl_ID.Text = NextID.ToString();
         }
@@ -174,6 +199,7 @@ namespace WinFormsApp1
 
         }
 
+<<<<<<< HEAD
         private void UpdateBtn_Click(object sender, EventArgs e)
         {
            
@@ -183,5 +209,8 @@ namespace WinFormsApp1
         {
             return new List<User>();
         }
+=======
+       
+>>>>>>> 0cf19bd14cb7479ec016ce3ee7f1476ae95b5503
     }
 }
